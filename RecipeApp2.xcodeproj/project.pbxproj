@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BA7F3C628A5571900140037 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7F3C528A5571900140037 /* RecipeTabView.swift */; };
 		9BB97E6528A2A48F001085A2 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB97E6428A2A48F001085A2 /* RecipeModel.swift */; };
 		9BB97E6728A2B448001085A2 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB97E6628A2B448001085A2 /* DataService.swift */; };
 		9BB97E6928A2C8FD001085A2 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB97E6828A2C8FD001085A2 /* RecipeList.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9BA7F3C528A5571900140037 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		9BB97E6428A2A48F001085A2 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		9BB97E6628A2B448001085A2 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		9BB97E6828A2C8FD001085A2 /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			children = (
 				9BE2DC9D28A134290097CF6B /* ContentView.swift */,
 				9BB97E6A28A30415001085A2 /* RecipeDetailView.swift */,
+				9BA7F3C528A5571900140037 /* RecipeTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				9BB97E6928A2C8FD001085A2 /* RecipeList.swift in Sources */,
 				9BE2DC9E28A1342A0097CF6B /* ContentView.swift in Sources */,
 				9BB97E6728A2B448001085A2 /* DataService.swift in Sources */,
+				9BA7F3C628A5571900140037 /* RecipeTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
