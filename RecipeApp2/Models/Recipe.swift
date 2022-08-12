@@ -18,9 +18,22 @@ class Recipe: Identifiable, Decodable {
     var prepTime: String
     var cookTime: String
     var totalTime: String
-    var ingredients: [String]
+    var ingredients: [Ingredients]
     var directions: [String]
     var servings: Int
+    var highlights: [String]
+    
+    
+}
+
+
+//Identifiable lets us work in a swift ui list and tell it apart/  Decodable lets us decode the data
+class Ingredients: Identifiable, Decodable{
+    var id: UUID?
+    var name: String
+    var num: Int?
+    var denom: Int?
+    var unit: Int?
     
     
 }
