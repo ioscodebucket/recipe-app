@@ -32,14 +32,17 @@ struct RecipeDetailView: View {
                         .padding([.bottom,.top], 5)
                     
                     //ForEach(recipe.ingredients, id: \.self){ item in
-                    ForEach(recipe.ingredients){ item in
+                    ForEach (recipe.ingredients){ item in
                         
-                    Text("•" + item.name)
+                    Text("• " + item.name)
                             
                         
                     }//:ForEach
                 }//:VStack
                 .padding(.horizontal, 10)
+                
+                //MARK: Divider
+                Divider()
                 
                 //MARK: Directions
                 VStack(alignment: .leading) {

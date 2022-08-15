@@ -27,13 +27,14 @@ class Recipe: Identifiable, Decodable {
 }
 
 
-//Identifiable lets us work in a swift ui list and tell it apart/  Decodable lets us decode the data
+//Identifiable lets it work in a swiftUI list and tell it apart
+//  Decodable lets us decode the data
 class Ingredients: Identifiable, Decodable{
     var id: UUID?
     var name: String
     var num: Int?
     var denom: Int?
-    var unit: Int?
+    var unit: String?
     
     
 }
