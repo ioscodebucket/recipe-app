@@ -18,7 +18,7 @@ struct RecipeFeaturedView: View {
             Text("Featured Recipes")
                 .bold()
                 .font(.largeTitle)
-                .padding(.leading)
+                .padding(.top, 40)
             
                 
                 

@@ -47,8 +47,7 @@ struct ContentView: View {
                                             .cornerRadius(5)
                                         
                                         Text(recipiesItems.name)
-                                            .foregroundColor(.white)
-                                        
+                                           
                                         
                                         
                                         
@@ -61,9 +60,10 @@ struct ContentView: View {
                     }//:LazyVStack
                 }//:SrollView
             }//:VStack
-            .padding(.leading)
+            
             .navigationBarHidden(true)
             //.navigationBarTitle("All Recipes")
+            .padding(.leading)
             
             
         }//:NavigationView
